@@ -1,9 +1,14 @@
 const root = document.querySelector('#root')
+const textTitle = 'Alberto'
 
-function newElement (tag, content){
-    const title = `<${tag}>${content}</${tag}>`
 
-    root.insertAdjacentHTML('beforeend', title)
-}
 
-newElement('h1', 'Dificuldade' )
+// TAGGED TEMPLETE STING
+const title = Title `
+    color: red;
+    font-size: 20px;
+    ${textTitle}
+  
+`
+
+root.insertAdjacentHTML("beforeend", title)
