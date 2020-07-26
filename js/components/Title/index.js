@@ -1,8 +1,12 @@
 
-function Title(css, textContent){
 
-    return `<h1 style="${css[0]} ${css[1]}"}>
+function Title(css, textContent) {
+  
+    return `
+    <h1 style="${css[0]}"> 
         ${textContent}
-    </h1>`
+    </h1> `
+  
 }
+
 
