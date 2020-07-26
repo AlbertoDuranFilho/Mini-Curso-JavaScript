@@ -4,6 +4,7 @@
       :root{
           --line-height: 10px;
           --happy-color: #EAB543; 
+          --action-color: #f8efba
       }
 
       *{
