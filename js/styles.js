@@ -1,5 +1,11 @@
-      const style = `<style>
+      const style = `
+      <style>
       
+      :root{
+          --line-height: 10px;
+          --happy-color: #EAB543; 
+      }
+
       *{
             margin: 0;
             padding: 0;
@@ -25,9 +31,12 @@
             height: 30vw;
             text-align: center;
             padding-top: 4rem;
+            padding-bottom: 7rem;
+           
         }
 
-        </style`
+        </style>
+        `
 
         const head = document.querySelector("head")
 
